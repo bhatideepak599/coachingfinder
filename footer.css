@@ -1,0 +1,158 @@
+.footer-box {
+    width: 100%;
+    border-bottom-left-radius: 16rem;
+    background: linear-gradient(white, black);
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  
+  
+  }
+  
+  .footerback {
+    background-color: rgb(11, 12, 11);
+  
+  }
+  
+  
+  
+  .footer-col-1 {
+    flex-basis: 24%;
+    padding-top: 3rem;
+    color: white;
+  }
+  
+  .footer-col-1 h2 {
+    padding-bottom: 2rem;
+  }
+  
+  .footer-col-2 {
+  
+    flex-basis: 46%;
+    height: 7rem;
+    color: white;
+  }
+  
+  .footer-col-3 {
+    padding-top: 1rem;
+    flex-basis: 25%;
+    color: white;
+  }
+  
+  .footer-col-3 img {
+    width: 8vw;
+    height: 3vw;
+  
+  }
+  
+  .copyright {
+    margin-top: .8vw;
+    font-size: 1.7vw;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  
+  }
+  
+  .social-media i {
+    padding: .2rem .2rem;
+    font-size: 2rem;
+  
+  }
+  
+  .social-media i:hover {
+    color: white;
+  }
+  
+
+  .footersection {
+    /* flex-basis: 30.3%; */
+    padding-left: 2vw;
+    margin-bottom: 5vw;
+  
+    margin-left: 2vw;
+    width: 27%;
+    margin-top: 4vw;
+  }
+  
+  .footersection p,
+  .footersection li {
+      font-size: 1.6vw;
+      list-style: none;
+      text-align: -moz-center;
+      line-height: 2.2vw;
+      text-align: left;
+  
+  }
+  
+  .footersection h1 {
+    font-size: 3vw;
+    margin-left: 5vh;
+    text-align: -moz-center;
+    margin-top: 6vw;
+  }
+    
+  .footersection ul a{
+    /* text-decoration:none; */
+    color: black;
+    line-height: 3vw;
+    transition: color 1s, text-decoration 0.9s;
+  }
+  .footersection ul a:hover{
+    color:blue;
+    text-decoration:underline;
+  }
+
+
+  .row3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.3vw;
+    background-color: white;
+    margin-bottom: 3vw;
+    color: black;
+}
+ul li a{
+    text-decoration: none;
+}
+#midheading{
+    text-align: center;
+}
+/* .......................footer icon........................... */
+.footer_lowest {
+    background-color:white;
+            color: black;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-left:5vw;
+        }
+
+        .social-icons a {
+            color:black;
+            text-decoration: none;
+            font-size: 28px;
+           
+        }
+
+        .copyright {
+            margin-top: 10px;
+            font-size:11px;
+        }
+        @media screen and (max-width: 760px){
+          .footersection{
+            width: 39%;
+          }
+          .footersection p, .footersection li{
+            font-size:12px;
+            line-height: 3.6vw;
+          }
+        }

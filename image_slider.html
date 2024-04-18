@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f2f2f2;
+    }
+
+    .stair-container {
+      position: relative;
+      width: 80%;
+      max-width: 250px;
+      margin-top: 50px;
+    }
+
+    .stair {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 20px;
+      background-color: #3498db;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+
+    .stair:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .stair img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+    }
+
+    .stair-content {
+      padding: 20px;
+      color: #fff;
+    }
+
+    .stair-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .stair-description {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="stair-container">
+  <div class="stair step1">
+    <img src="https://via.placeholder.com/600x300" alt="Step 1">
+    <div class="stair-content">
+      <div class="stair-title ">Step 1</div>
+      <div class="stair-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+    </div>
+  </div>
+
+  <div class="stair step2">
+    <img src="https://via.placeholder.com/600x300" alt="Step 2">
+    <div class="stair-content">
+      <div class="stair-title ">Step 2</div>
+      <div class="stair-description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    </div>
+  </div>
+
+  <div class="stair step3">
+    <img src="https://via.placeholder.com/600x300" alt="Step 3">
+    <div class="stair-content">
+      <div class="stair-title">Step 3</div>
+      <div class="stair-description">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</div>
+    </div>
+  </div>
+
+  <div class="stair step4">
+    <img src="https://via.placeholder.com/600x300" alt="Step 4">
+    <div class="stair-content">
+      <div class="stair-title">Step 4</div>
+      <div class="stair-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+    </div>
+  </div>
+
+
+</div>
+
+</body>
+</html>

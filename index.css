@@ -1,0 +1,212 @@
+.form-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    /* max-width: 400px; */
+    margin: 0 auto;
+    width:85%
+}
+
+label, select, input, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+select, input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* .....................................placement section css starts here ......................... */
+
+ .container432 {
+    width: 68%;
+    margin: auto;
+    padding: 2vw;
+    margin-top: 3vw;
+    background-color: white;
+        }
+/*
+        select, input {
+            padding: 10px;
+            margin: 5px;
+        } */
+
+        .small-container ,.added-course{
+            /* display:none; */
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .added-course{
+            display:flex;
+        }
+
+        .attractive-button {
+            padding: 10px;
+            margin: 5px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .attractive-button:disabled {
+            background-color: #aaaaaa;
+            cursor: not-allowed;
+        }
+        .delete-button {
+
+    padding: 5px;
+    background-color: #ff6464;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 7vw;
+    margin-left: .6vw;
+        }
+        .delete-button123 {
+
+padding: 5px;
+background-color: #ff6464;
+color: white;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+width: 10vh;
+margin-left: 2vw;
+max-height: 2vw;
+    }
+
+        .delete-button:hover {
+            background-color: #ff4444;
+        }
+        input[type="checkbox"] {
+ 
+    font-size: 2vw;
+    height: 1.7vw;
+    position: absolute;
+    left: -1vw;
+    /* top: 1vw; */
+    margin-top: -0.2vw;
+    cursor:pointer;
+        }
+
+        #scholarshipInputContainer {
+            display: none;
+            margin-top: 10px;
+        }
+/* ..................................placement css ends here .................. */
+
+/* ..........................facilities css starts from here ..................... */
+
+.container_facility {
+            
+            margin: 20px auto;
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .selected-options-container {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .selected-option-set {
+            margin: 5px;
+            padding: 5px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .selected-option {
+            margin-right: 5px;
+        }
+
+        .delete-button {
+            cursor: pointer;
+        }
+        #teachersDetails{
+            /* visibility:hidden; */
+            display:none;
+        }
+        #addedCourses {
+            display:none;
+        }
+        #course_detail{
+            display:none;
+        }
+/* ..........................facilities css starts from here ..................... */
+   #pro{
+    margin-top:2vw;
+    font-size:18px;
+   }
+   #options{
+    height: 11vw;
+   }
+
+   @media only screen and (max-width: 990px) {
+    .container432  {
+        width: 95%; /* Adjust width for smaller screens */
+    }
+    #toggle_button{
+        width: 13vw;
+    }
+    #coachingCenterDetails{
+        min-width: 100%;
+    }
+    form {
+        width:98%
+    }
+}
+.toast {
+    z-index: 900;
+    position: fixed;
+    left: 35%;
+    top: 30%;
+    /* transform: translateX(-50%); */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+  }
+
+  .toast.success  {
+    background-color: green;
+  }
+
+  .toast.error {
+    background-color: red;
+  }

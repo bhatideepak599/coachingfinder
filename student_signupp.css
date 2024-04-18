@@ -1,0 +1,222 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+
+
+  .form-section {
+    display: none;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .visible {
+    display: block;
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    margin-bottom: 8px;
+    color: #333;
+  }
+
+  input, select {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #bdc3c7; /* Lighter border color */
+    border-radius: 8px; /* Increased border radius */
+    font-size: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+  }
+
+  input:focus, select:focus {
+    border-color: #3498db; /* Highlight border color on focus */
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.6); /* Slightly more pronounced box shadow on focus */
+  }
+
+  button {
+    cursor: pointer;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+
+  button:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  .attractive-input {
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+
+  .attractive-input:focus {
+    border-color: #2980b9;
+  }
+
+  /* Enhancements for attractiveness */
+  .container898 {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Font Awesome icons */
+  .fa {
+    margin-right: 8px;
+  }
+
+  .fa-lock {
+    color: #3498db;
+  }
+
+  .fa-calendar-alt {
+    color: #3498db;
+  }
+
+  .fa-google {
+    color: #fff;
+  }
+
+  .google-login {
+    background-color: #dd4b39;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  .google-login:hover {
+    background-color: #d14836;
+  }
+  .main-continer90
+  {
+  width: 70%;
+  margin: auto;
+  background-color:white;
+  /* height: 100vh; */
+  padding: 4vw;
+  /* max-height: 90vh; */
+  margin-top: 2vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .container898 {
+    max-width: 600px;
+  margin: 3vw auto;
+  /* background-color: #fff; */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 36vw;
+  }
+  .diffrent-container{
+    width: 10vw;
+    background-color: lightcyan;
+    flex-basis: 70%;
+    display: flex;
+  flex-wrap: wrap;
+  }
+  .diffrent-container img{
+  border-radius: 50%;
+  width: 5vw;
+  margin-top: 1vw;
+  }
+  .haha{
+      background-color: whitesmoke;
+  margin: 1vw;
+  text-align: center;
+  margin-left: 1.6vw;
+  }
+  .haha div{
+    margin-top: 1vw;
+    padding: 1.3vw;
+  }
+
+.left_registtration{
+    flex-basis: 40%;
+  background-color: red;
+  /* display: flex; */
+  /* height: 20vw; */
+  background-color: white;
+  display: flex;
+  /* height: 20vw; */
+  flex-wrap: wrap;
+
+    
+  }
+.hi{
+width: 3vw;
+
+flex-basis: 30%;
+background-image: url("back-side-1.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-color: antiquewhite;
+
+}
+
+
+@media only screen and (max-width: 900px) {
+.left{
+display: none;
+}
+.main-continer90{
+width: 98%;
+}
+.container{
+width: 100%;
+}
+}
+.alert{
+margin-top: 2vw;
+}
+
+#details{
+  width: 82%;
+  /* text-align: center; */
+  margin: auto;
+  background-color: white;
+  padding: 1.2vw;
+}
+#tenTh_detail{
+background-color: lightblue;
+padding: 2vw;
+}
+#twelthTh_detail{
+background-color: rgba(144, 238, 144, 0.565);
+padding: 2vw;
+}

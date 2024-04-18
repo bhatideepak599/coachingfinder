@@ -1,0 +1,1223 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    
+}
+
+.container {
+
+    max-width: 84%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top:15vh;
+    margin-bottom:17vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-bar {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1vw;
+    border-radius: 5px;
+    margin: auto;
+   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    max-width: 5vw;
+    margin-right: 3vw;
+    margin-left: 2vw;
+}
+.logo img{
+    height: 3vw;
+}
+
+.search-fields {
+    display: flex;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+select, input {
+    padding: 1vw;
+width: 13vw;
+font-size: 1.2vw;
+border: 1px solid #ddd;
+/* border-radius: 5px; */
+outline: none;
+}
+
+
+#inquiry-span1,#inquiry-span2{
+  background-color: white;
+  border-radius: .4vw;
+  color: black;
+  font-weight: 800;
+  font-size: 2vw;
+}
+
+.bu{
+    text-align: center;
+    margin-top: 2.9vw;
+}
+/* .............................enquery.................................... */
+
+
+.inquiry-span:hover {
+    background-color: #2980b9;
+    animation:none;
+}
+
+
+.inquiry-container {
+    display: none;
+    /* position: fixed; */
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 3; /* Higher stacking order */
+}
+
+.inquiry-form {
+    background-color: #fff;
+    padding: 3vw;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 4; /* Higher stacking order */
+    width:30%;
+
+}
+
+.close-btn {
+    padding-bottom: 5vw;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.inquiry-form label {
+    display: block;
+    margin-bottom: 0vw;
+}
+
+.inquiry-form input {
+    width: 100%;
+    padding: 0.9vh;
+    margin-right: 2vw;
+    margin-bottom: 10px;
+}
+/* .btn-container {
+    text-align: right;
+} */
+.submit-btn,
+.cancel-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 1vw;
+}
+/* .................................... user singin signup form........................... */
+.container123 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    z-index: 300;
+}
+
+
+label {
+    display: block;
+    margin: 3px 0 5px;
+    text-align: left;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin:auto;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+#loginForm, #signupForm {
+    display: none;
+}
+.singin_button{
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 42%;
+}
+.singup_button{
+    width: 100%;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+.center{
+    text-align: center;
+    margin-top: -5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.list-unstyled{
+    list-style:none;
+    margin-left:-1vw;
+}
+#coachingList{
+    position:absolute;
+    cursor:pointer;
+    background-color:lightgrey;
+    width: 24vw;
+    margin-top: 1.2vw;
+
+}
+#coachingName{
+    width:25vw;
+    height: 4vw;
+}
+/* ..................................image slider................................ */
+
+/* .slider-container {
+position: relative;
+width: 80%;
+max-width: 45%;
+overflow: hidden;
+/* border: 5px solid #3498db; */
+/* border-radius: 10px;
+margin:auto;
+} */
+/* 
+.slider {
+display: flex;
+transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+min-width: 100%;
+box-sizing: border-box;
+}
+
+.slide img {
+width: 100%;
+
+}  */
+
+/* .control-button {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+font-size: 1.2vw;
+color: #fff;
+background-color: #0908081f;
+border: none;
+
+padding: 1vw;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out
+}
+
+.control-button:hover {
+background-color: #2980b9;
+}
+
+.prev {
+left: 0;
+}
+
+.next {
+right: 0;
+}*/
+.left{
+width: 56%;
+/* border-right: dashed; */
+/* border-right-style: groove; */
+}
+.upper_part{
+display:flex;
+background-color: #d3d3d387;
+flex-wrap: wrap;
+background-color: white;
+/* background-image: url("images/background_new.png");
+background-size: cover;
+background-repeat: no-repeat; */
+
+}
+.containerrr {
+max-width: 800px;
+margin: 20px auto;
+padding: 20px;
+background-color: #f0f0f0;
+width: 87%;
+
+} 
+
+/* Individual div styling */
+.item {
+display: flex;
+align-items: center;
+margin-bottom:3.3vh;
+background-color: white;
+/* padding: 1vw; */
+padding: 0 2vw;
+padding-bottom: 1vw;
+/* margin-bottom: 3vw; */
+border-radius: 0.4vw;
+box-shadow: 0 0.9vw 25px rgba(0, 0, 0, 0.2);
+/* background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 221, 255)); */
+}
+
+.item img {
+width: 5vw;
+border-radius: 5px;
+margin-right: 20px;
+border: 1px solid red;
+margin-top: 3%;
+max-width: 130px;
+}
+
+.item .content {
+flex: 1;
+padding: 1vw;
+text-align: center;
+}
+
+.item h2 {
+
+color: #333;
+font-size: 1.5vw;
+margin-bottom: 0.5vw;
+margin-top:.8vw;
+font-weight: 900;
+font-family: cursive;
+}
+
+.item p {
+text-align: left;
+color: #666;
+margin: 0;
+font-size:1.2vw;
+}
+/* ............................right part................................. */
+#sidebar {
+background-color: #f0f0f0;
+padding: 0px 20px;
+display: flex;
+margin-top: 1vw;
+margin-bottom: 2vh;
+flex-wrap: wrap;
+background-color: white
+
+}
+
+#content {
+    padding: 20px;
+    padding-top: 0vw;
+    /* margin-top: -6vh; */
+    /* background-color: #2a648014; */
+    /* margin-top: 1vw; */
+    transition: background-color 0.5s ease;
+}
+#loading-message{
+    display:none;
+    margin-left: 50%;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+    position: absolute;
+  }
+
+.container_right {
+padding: 10px;
+cursor: pointer;
+border: 1px solid #ccc;
+border-radius: 5px;
+/* height: 3vw; */
+margin: 0.6vw;
+font-size: 14px;
+
+}
+
+.container_right:hover {
+background-color: #e0e0e0;
+}
+
+
+.right{
+    width: 36%;
+  margin-top: -1.2vw;
+  margin-left: 1vw;
+}
+/* ......................................facility_upper_part.......................... */
+.facity_upper_part {
+font-family: Arial, sans-serif;
+padding: 20px;
+/* margin-top: 16%; */
+display: flex;
+flex-wrap: nowrap;
+align-content: space-between;
+justify-content: space-around;
+align-items: flex-end;
+}
+.facity_lower_part{
+font-family: Arial, sans-serif;
+display: flex;
+justify-content: space-around;
+padding: 20px;
+margin-top:2vw;
+}
+
+.facility {
+text-align: center;
+margin-bottom: 20px;
+margin: 1.4vw;
+display:flex;
+background-color: #daf4f0db;
+/* border-radius: 1.2vw; */
+}
+.facility_left{
+background-color:#00000078;;
+margin: auto;
+}
+.facility_details{
+padding: 1.21vw;
+font-size: 1vw;
+
+}
+.facility img {
+width: 7vw; /* Adjust the image width as needed */
+/* border-radius: 10px; */
+/* margin-bottom: 10px; */
+/* margin: auto; */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius:50%
+}
+
+.facility p {
+color: #555;
+margin: 0;
+/* font-weight:700; */
+font-size: 1.4vw;
+
+}
+
+/* ...................................... new css elements................................ */
+
+
+
+
+
+#container321 {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#container321 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+#container321 form {
+    display: grid;
+    gap: .3vw;
+    
+}
+#container321 label {
+    font-weight: bold;
+}
+#container321 input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+#container321 textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* border-radius: .7vw; */
+    box-sizing: border-box;
+}
+#container321 textarea {
+    resize: vertical;
+}
+#container321 input[type="submit"] {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+#container321 input[type="submit"]:hover {
+    background-color: lightblue;
+}
+
+
+
+
+
+
+
+/* ................................upper course and name slider part......................... */
+
+.slider-container {
+    position: relative;
+    width: 80vw;
+    max-width:98%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 2vw;
+    padding-top:2vw;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slidep {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -2vw;
+}
+
+.course-item {
+    flex: 0 0 15%; /* Adjust the width as needed */
+    box-sizing: border-box;
+    margin: 0 5px; /* Add some margin between items */
+    text-align: center;
+}
+
+.course-item img {
+border-radius: 50%;
+width: 5vw;
+height: auto;
+background-color:white;
+
+}
+
+.course-name {
+    margin-top: 10px;
+    color: black;
+    font-weight: 700;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 221, 255));
+    padding: .6vw;
+    border-radius: 0.5vw;
+    cursor: pointer;
+
+}
+
+.navigation-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: black;
+    font-weight: 900;
+}
+
+.navigation-button:hover {
+    background-color: #555;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+.below_nav_bar{
+background-image:url("images/background.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+opacity: .8;
+height: 76vh;
+margin-top: -2vw;
+}
+
+
+/* .............................................. */
+#largeDetailsContainer{
+  display: flex;
+flex-wrap: wrap;
+align-content: space-between;
+background-color: white;
+}
+.largeContainer{
+  padding:1vw;
+}
+
+.containerImage{
+  width:5vw;
+}
+
+/* ............................. brief details........................ */
+.brief-detail-container {
+display: flex;
+justify-content: space-around;
+margin: 20px;
+background: linear-gradient(to right, #e8723808, #2c00ff17);
+padding: 2vw;
+background-color: white;
+cursor:pointer;
+}
+
+
+
+.brief-detail {
+width: 250px;
+border: 1px solid #ddd;
+border-radius: 8px;
+overflow: hidden;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease-in-out;
+display:flex;
+}
+
+.brief-detail:hover {
+transform: scale(1.05);
+}
+
+.image {
+width: 5vw;
+height: 5vw;
+margin: auto;
+}
+
+.text-content {
+padding: 10px;
+}
+
+h2 {
+color: #333;
+margin: 0 auto;
+}
+
+.number {
+color: #666;
+margin-top: 5px;
+}
+/* ............................... auto typing ........................ */
+#auto-typing-text {
+/* font-family: 'Courier New', monospace; */
+font-size: 3.2vw;
+font-weight:700;
+white-space: nowrap;
+overflow: hidden;
+border-right: 2px solid #000;
+width: 10vw;
+animation: typing 6s steps(50) infinite;
+}
+.typing{
+width: 57vw;
+margin: auto;
+}
+
+@keyframes typing {
+from {
+width: 0;
+}
+to {
+width: 100%;
+}
+} 
+/* ........................... 26 states details........................... */
+.small-div{
+
+width: 18vw;
+min-width: 25vh;
+padding: 2.4vh;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: .4vh;
+background-color: white;
+margin:auto;
+transition: transform 0.3s ease-in-out; 
+cursor:pointer;
+box-shadow: 0 0.9vw 25px rgba(0, 0, 0, 0.2);
+border-radius: .8vw;
+
+}
+.small-div:nth-child(odd) {
+/* background-color: #d3d3d300; */
+/* width: 18vw; */
+margin-bottom: 2vw;
+}
+
+.small-div:hover {
+transform: scale(1.06); /* Increase the scale factor to zoom in on hover */
+background-color: whitesmoke;
+border: 1px solid black;
+}
+#big-container ,#big-container1{
+display: flex;
+align-content: space-between;
+flex-wrap: wrap;
+}
+#details{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 700;
+    /* margin-top: -1vh; */
+    padding-top: 1vw;
+
+}
+
+.see-more-button {
+cursor: pointer;
+color: white;
+display:none;
+margin-left:1vw;
+font-size:1.4vw;
+margin-top:3vw;
+}
+/* ........................... explore more ..................... */
+.explore-more-container {
+position: relative;
+width: 100%;
+height: 300px; /* Adjust height as needed */
+overflow: hidden;
+}
+
+.blur-background {
+position: absolute;
+top: 0;
+left: 0;
+width: 85%;
+height: 75%;
+background-image: url('back.jpg'); /* Add your background image URL here */
+background-size: cover;
+filter: blur(2px);
+margin-left: 9%;
+margin-top:2vw;
+}
+
+.explore-more-container .content {
+position: relative;
+z-index: 1;
+text-align: center;
+color: white;
+padding-top: 50px; /* Adjust spacing as needed */
+}
+
+.content button {
+padding: 10px 20px;
+background-color: #ff4b00;
+color: white;
+border: none;
+border-radius: 2vw;
+cursor: pointer;
+margin-top:3vw;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+/* ......................... admisson updates...................... */
+.admission2024 {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+width: 85%;
+margin:auto;
+margin-bottom:2vw;
+}
+.admission2024 img{
+height:4vw;
+}
+
+.college_admission {
+
+height: 3vw;
+padding:1vw;
+
+background-color: white;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+color:black;
+font-size:1.2vw;
+border-bottom-left-radius: 2vw;
+border-bottom-right-radius: 2vw;
+border-top-left-radius: 2vw;
+border-top-right-radius: 2vw;
+margin-bottom: 1vw;
+}
+
+.college_admission:hover {
+background-color: lightgrey;
+}
+
+/* ......................................... */
+.small_p_upper ,.small_p_lower {
+background-color: #362f4f2b;
+padding: 0.8vw;
+border-bottom-left-radius: 2vw;
+border-bottom-right-radius: 2vw;
+border-top-left-radius: 2vw;
+border-top-right-radius: 2vw;
+text-align: center;
+color: black;
+margin: 0.6vw;
+margin-bottom: 12px;
+
+}
+
+.click_image_css{
+width: 2vw;
+padding-top: -4vw;
+/* margin-top: 3vw; */
+margin-bottom: -2vw;
+}
+.state_image{
+width: -webkit-fill-available;
+height: -webkit-fill-available;
+width: 15vw;
+
+}
+/* ............................. news letter.............................. */
+.news_letter_details {
+width: 100%;
+margin: 3vw auto;
+background-image: url(images/backo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+padding: 3vw;
+}
+
+.news_letter_details p {
+color: white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.news_letter_details h1 {
+color: white;
+font-weight: 700;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.news_letter_details form {
+
+width: 85%;
+/* margin: auto; */
+margin-top: 3vw;
+/* text-align: center; */
+}
+
+input[type="email" i] {
+padding-block: 1px;
+padding-inline: 2px;
+padding: 1.2vw;
+width: 45%;
+margin-right: -1vw;
+    /* margin-top: 3vw; */
+ padding-top: 1.41vw;
+ padding-bottom: .9vw;
+}
+button {
+padding: .6vw 1.3vw;
+background-image: linear-gradient(rgb(785, 225, 24), rgb(255, 89, 251));
+color: darkred;
+font-weight: 700;
+border: none;
+border-radius: .4vw;
+cursor: pointer;
+margin-right: 2vw;
+font-size: 2vw;
+transition: background-color 1s ease;
+}
+
+button:hover {
+background-color: rgba(255, 0, 0, 0.681);
+}
+.book{
+    margin-top: 3vw;
+    height: 37vw;
+    background-image: url("meri_padhaiVSothers.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.details{
+width: 45%;
+padding: 2vw;
+margin-top: 3vw;
+
+}
+#are_you_scared{
+    background-color: black;
+    padding-left: 1vw;
+    padding-right: 1vw;
+ 
+}
+.details h1{
+    font-size:3vw;
+    font-weight:900;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* line-height:0.9 */
+}
+#price{
+    background-color: lightyellow;
+    padding: .5vw;
+    color: darkred;
+    border-radius: .4vw;
+    font-weight: 900;
+}
+.details h2{
+    font-size: 2vw;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#details_h1{
+    margin-top: 2vw;
+    color: black;
+    background-color: lightblue;
+    font-size: 2.4vw;
+    padding: .6vw;
+    border-radius: .4vw;
+    
+    line-height: 5vw;
+   
+}
+.details h3{
+    color:blue;
+    font-size:1.2vw;
+    font-family: cursive;
+}
+#book_seat{
+margin-top: 2vw;
+}
+#book_seat_div{
+    text-align: center;
+    
+}
+/* ............................about ............................... */
+.about_section {
+display: flex;
+background-color: white;
+padding: 2vw;
+/* background-image: url("images/background_new.png");
+background-size: contain;
+background-repeat: no-repeat; */
+}
+
+.left_about_section img {
+height: 32vw;
+margin: 0.4vw;
+margin-right: 3.4vw;
+}
+
+.right_about_section {
+/* line-height: 2vw;
+font-size: 1.3vw; */
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.l{
+text-align: center;margin: 3vw;
+font-size: 2vw;
+}
+
+/* ............................. what we provide you ................... */
+.what_you_get_main_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 94%;
+    margin: auto;
+    margin-top: 5vw;
+    /* background-image: url("back.jpg"); */
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.what_you_get {
+    padding-top: 2vw;
+    background-color: white;
+    border-radius: 0.6vw;
+    margin-bottom: 29px;
+    margin-right: 0.5vw;
+    box-shadow: 0 1.3px 2px rgb(0, 1, 1);
+    flex-basis: 23%;
+    margin-top: 2vw;
+
+}
+.what_you_get_details{
+    font-size: 1.4vw;
+    /* padding: 1vw; */
+    line-height: 1.5vw;
+}
+.what_you_get_details h5{
+    font-size: 1.4vw;
+    text-align: center;
+    padding: .4vw;
+}
+.what_you_get_details p{
+    background-color: #d3d3d382;
+    padding: 2vw;
+    height: 16vw;
+    margin-bottom: 0vw;
+}
+#what_you_get_details1{
+    height: 18vw;
+    background-color: #add8e69c;
+}
+#what_you_get_details2{
+    height: 18vw;
+    background-color: #e0ffffab;
+}
+#what_you_get_details3{
+    height: 18vw;
+    background-color: #ffb6c185;
+}
+#what_you_get_details4{
+     height: 18vw;
+     background-color: #87cefab0;
+}
+.what_you_get_logo{
+    text-align: center;
+}
+.what_you_get_logo img{
+
+    width: 6vw;
+}
+.list-unstyled li{
+    margin-top: 1vw;
+    background-color: white;
+    padding: 0.7vw;
+    text-align: center;
+    width: 24vw;
+  margin-left: 1vw;
+}
+#next{
+    width: 3vw;
+}
+.search-button {
+    background-color: #4CAF50;
+    color: black;
+    font-weight: 300;
+    border: none;
+    font-size: 1.7vw;
+    border-radius: .3vw;
+    cursor: pointer;
+    padding: 0vw 1vw;
+    /* margin-right: .4vw; */
+    height: 4vw;
+    }
+.small-div h4{
+    font-size:2vw;
+    color:black;
+    margin:0vw;
+    text-align: center;
+}
+.left_about_section{
+    text-align: center;
+}
+.browse_by{
+  text-align: center;
+  font-size: 2.4vw;
+}
+.trangle{
+    width: 0vw;
+    margin: auto;
+    margin-top: -0.5vw;
+    border-left: 1.2vw solid transparent;
+    border-right: 1.2vw solid transparent;
+    border-bottom: 1.2vw solid #2a648014;
+    display:none;
+  }
+  #news_letter_button{
+    border-radius: 0vw;
+  }
+/* .............................responsiveness............................... */
+@media screen and (max-width: 760px) {
+    .right{
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+    #container321 input[type="submit"] {
+        padding: 8px 16px; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    .containerrr{
+        flex-basis: 100%;
+    }
+    #container321 label{
+        font-size: 14px;
+    }
+    #container321 h2{
+        font-size: 14px;
+    }
+    #sidebar{
+        padding: 12px 20px;
+    }
+    .small-div{
+        margin-top: 3vw;
+    }
+    button{
+        font-size: 2vw;
+    padding: 6px;
+    border-radius: .1vw;
+    }
+    .small-div h4{
+        font-size: 14px;
+    }
+    .details{
+        margin-top: -1vw;
+    }
+    h1{
+        font-size: 14px;
+        margin-top: 2vw;
+    }
+    .right_about_section{
+        font-size: 14px;
+    }
+    #details{
+        font-size: 16px;
+    }
+    .about_section{
+        flex-direction: column;
+    }
+    .college_admission{
+        font-size: 12px;
+    padding: 3vw;
+    margin: 1vw;
+    }
+    .see-more-button{
+        font-size: 12px;
+    }
+    .browse_by{
+        font-size: 14px;
+    }
+      .what_you_get{
+        flex-basis: 55%;
+      }
+      .left{
+        width: 100%;
+      }
+      .about_section {
+        background-image: none;
+      }
+      .left_about_section {
+        margin-bottom: 2vw;
+      }
+      .below_nav_bar{
+        height: 45vw;
+      }
+      .container {
+        margin-top: 6vw;
+      }
+      .nav-image{
+        height: 7vw;
+      }
+      .container {
+        max-width: 100%;
+      }
+      #toggle_button{
+        margin-right: -6vw;
+      }
+      .search-button {
+        margin: auto;
+      }
+}
+
+/* ...................................show taost............................. */
+/* .toast {
+    z-index: 900;
+    position: fixed;
+    left: 35%;
+    top: 30%;
+  
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: none;
+  }
+  .toast.success  {
+    background-color: green;
+  }
+
+  .toast.error {
+    background-color: red;
+  }
+   */
+   .alert{
+    width: 70%;
+    text-align: center;
+    padding: 1vw;
+    margin: auto;
+   }
+   .alert h5{
+   font-size: 2vw;
+   }

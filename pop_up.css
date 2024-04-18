@@ -1,0 +1,96 @@
+/* .............................enquery.................................... */
+
+
+.inquiry-span:hover {
+    background-color: #2980b9;
+    animation:none;
+}
+
+
+.inquiry-container {
+    display: none;
+    /* position: fixed; */
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    z-index: 3; /* Higher stacking order */
+}
+
+.inquiry-form {
+    background-color: #fff;
+    padding: 3vw;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 4; /* Higher stacking order */
+    width:58%;
+
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.inquiry-form label {
+    display: block;
+    margin-bottom: 0vw;
+}
+
+.inquiry-form input {
+    width: 100%;
+    padding: 0.9vh;
+    margin-right: 2vw;
+    margin-bottom: 10px;
+}
+/* .btn-container {
+    text-align: right;
+} */
+
+/* .................................... user singin signup form........................... */
+.container123 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    z-index: 300;
+}
+
+
+label {
+    display: block;
+    margin: 3px 0 5px;
+    text-align: left;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+#pop_image{
+    cursor: pointer;
+}
